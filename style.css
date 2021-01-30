@@ -41,3 +41,44 @@ body{
     width: 25px;
     height: 25px;
 }
+.header{
+    background-color: black;
+    color: white;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.header__content{
+    transform: translateX(100px);
+    width: 40%;
+}
+.header__image{
+    width: 40%;
+}
+.header__watch{
+    width: 350px;
+    
+}
+.header__title{
+    font-size: 100px;
+}
+.header__text{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+.header__link{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffb79b;
+    margin-left: 70px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.header__link:hover{
+    background-color: gray;
+}
