@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watch Sale</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- nav start -->
-    <nav class="nav" data-aos="fade-down" style="transition: 0.5s;">
-        <div class="container">
+    <nav class="nav" >
+        <div class="container" data-aos="fade-down" style="transition: 0.5s;">
             <a href="#" class="header__logo"><img src="./img/logo.png" alt="logo" class="header__logo__image"></a>
             <ul class="nav__list">
                 <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
@@ -27,7 +28,7 @@
     <!-- nav end -->
     <!-- header start -->
     <header class="header">
-        <div class="container">
+        <div class="container"  data-aos="zoom-in" style="transition: 0.5s;">
             <div class="header__content">
                 <h1 class="header__title">Brand Watch</h1>
                 <strong class="header__text">___ UP TO 40% Off ___</strong>
@@ -37,6 +38,25 @@
         </div>
     </header>
     <!-- header end -->
+    <!-- section-search start -->
+    <section class="section-search">
+        <div class="container">
+            <div class="section__position" >
+                <div class="position-image"><img src="./img/cool.png" alt="cool" class="position__watch"></div>
+                <div class="position-content">
+                    <p class="position__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
+                    <a href="#" class="position__link">View details</a>
+                </div>
+            </div>
+            <input type="search" class="search-watches" placeholder="search">
+            <div class="scrollmenu">
+                <a href="#home"><img src="./img/5.png" alt="watch" class="scroll-image"></a>
+                <a href="#news"><img src="./img/4.png" alt="watch" class="scroll-image"></a>
+                <a href="#contact"><img src="./img/3.png" alt="watch" class="scroll-image"></a>
+                <a href="#about"><img src="./img/7.png" alt="watch" class="scroll-image"></a>
+              </div>
+        </div>
+    </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
