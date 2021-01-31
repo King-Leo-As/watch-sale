@@ -107,7 +107,7 @@ body{
     transform: translateX(680px);
 }
 .position__text{
-    font-size: 13px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 .position__link{
@@ -130,24 +130,35 @@ body{
     background-color: #ffd7c8;
     
 }
-.scroll-image{
-    width: 150px;
-    height: 200px;
+.scroll-images{
+    display: flex;
+    justify-content: center;
 }
-div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover {
-    background-color: #777;
-  }
+.scroll-images__box{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    background-color: #ffe9e1;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition: 0.3s;
+}
+.scroll-images__box:hover{
+    box-shadow: 0px 0px 30px goldenrod;
+}
+.scroll__watch{
+    width: 200px;
+    height: 300px;
+}
+.scroll-box__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.scroll-box__text{
+    font-size: 12px;
+}
+
